@@ -18,6 +18,8 @@
       theme: {
         extend: {
           colors: {
+            'gradient-start': '#FF8938',
+            'gradient-end': '#F00',
             clifford: '#da373d',
           }
         }
@@ -227,8 +229,64 @@
 
 </section>
     </main>
-    <footer>
 
+    <footer class="bg-red-100">
+
+      <div class="flex justify-between px-6 lg:px-96 py-10">
+<img src="tea-house-resources-main/images/cup.png" alt="">
+  <p class="font-semibold mr-5 space-x-4">
+    <span>Ready to get started?</span>
+    <button class="rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-6 py-3 text-white font-bold">Get Started</button>
+  </p>
+
+      </div>
+
+      <div class="mb-2 p-16 lg:px-48 footer text-base-content">
+        <nav>
+        <h6 class="footer-title">Quick Links</h6> 
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About us</a>
+        
+        <a class="link link-hover">Insurance</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </nav> 
+      <nav>
+        <h6 class="footer-title">Our Services</h6> 
+        <a class="link link-hover">Life Insurance</a>
+        <a class="link link-hover">Car Insurance</a>
+        <a class="link link-hover">Health Insurance</a>
+        <a class="link link-hover">House Insurance</a>
+      </nav> 
+      
+      <nav>
+        <h6 class="footer-title">Help</h6> 
+        <a class="link link-hover">FAQs</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav> 
+      <form>
+        <h6 class="footer-title">Subscribe to our <br> newsletter</h6> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="Email address" class="py-4 bg-transparent border-b-2 border-black outline-none " /> 
+            <button class="rounded-full btn text-white bg-gradient-to-r from-[#FF8938] to-[#F00]"><i class="fa-solid fa-circle-chevron-right"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="flex justify-end px-44 lg:pr-96 mb-10">
+      <div class="space-x-6">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    
+      <div class="footer footer-center mt-4 bg-red-100 text-base-content pb-40">
+          <p>© 2027 UIDesign.to - All rights reserved</p>
+      </div>
     </footer>
 </body>
 </html>
